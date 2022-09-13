@@ -1,6 +1,18 @@
 <h1>{{ title }}</h1>
 <router-outlet></router-outlet>
-<li *ngFor="let persona of personas">
-  <span>{{persona.apellido_materno}}</span>
-</li>
-{{personas}}
+<table border="1">
+  <thead>
+    <tr>
+      <td>nombre</td>
+      <td>apellido paterno</td>
+      <td>apellido materno</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let persona of personas">
+      <td>{{persona.nombre}}</td>
+      <td>{{persona.apellidoMaterno}}</td>
+      <td>{{persona.apellidoMaterno}}</td>
+    </tr>
+  </tbody>
+</table>
