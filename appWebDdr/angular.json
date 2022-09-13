@@ -71,7 +71,7 @@
               "browserTarget": "appWebDdr:build:production"
             },
             "development": {
-              "browserTarget": "appWebDdr:build:development",
+              "browserTarget": "appWebDdr:build:development"
             }
           },
           "defaultConfiguration": "development"
